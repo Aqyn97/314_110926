@@ -1,2 +1,7 @@
-# 314_110926
-CSS 314 lesson , Student Tulegen Yerassyl 
+##314_110926
+
+##Student name --> Tulegen Yerassyl 
+##Student id --> 230103342
+##Student group  --> 08P
+
+
