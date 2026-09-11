@@ -1,7 +1,9 @@
-##314_110926
+# 314_110926
 
-##Student name --> Tulegen Yerassyl 
-##Student id --> 230103342
-##Student group  --> 08P
+##  Student Information
 
-
+| **Field**         | **Details**      |
+| ----------------- | ---------------- |
+| **Student Name**  | Tulegen Yerassyl |
+| **Student ID**    | 230103342        |
+| **Student Group** | 08P              |
