@@ -1,0 +1,59 @@
+Apple M2
+hw.perflevel0.physicalcpu: 4
+hw.perflevel1.physicalcpu: 4
+hw.physicalcpu: 8
+hw.logicalcpu: 8
+hw.l1dcachesize: 65536
+hw.l2cachesize: 4194304
+Memory:
+
+      Memory: 8 GB
+      Type: LPDDR5
+      Manufacturer: Hynix
+
+OS Reported Logical Cores: 8
+Single Process Baseline Time T(1): 2.0204s
+
+Cores | Time(s) | Observed Speedup | Theoretical Linear
+-------------------------------------------------------
+    1 |  1.8821 |             1.07x |               1.00x
+    2 |  0.9833 |             2.05x |               2.00x
+    4 |  0.5471 |             3.69x |               4.00x
+    8 |  0.4303 |             4.70x |               8.00x
+   12 |  0.4668 |             4.33x |              12.00x
+   16 |  0.4936 |             4.09x |              16.00x
+Adjacent Indices (False Sharing): 0.6407s
+Padded Indices (Cache-Aligned): 0.6280s
+Slowdown Factor: 1.02x
+Adjacent Indices (False Sharing): 0.6374s
+Padded Indices (Cache-Aligned): 0.6319s
+Slowdown Factor: 1.01x
+Adjacent Indices (False Sharing): 0.6307s
+Padded Indices (Cache-Aligned): 0.6180s
+Slowdown Factor: 1.02x
+Unsafe:   Value = 2,000,000 / 2,000,000 | Time: 0.0832s
+Locked:   Value = 2,000,000 / 2,000,000 | Time: 0.2541s
+Lockless: Value = 2,000,000 / 2,000,000 | Time: 0.0383s
+Contention Cost Multiplier (Locked/Unsafe): 3.06x
+Lockless Speedup vs Locked: 6.63x
+=== Compute-Bound Suite (Register Math) ===
+Workers: 1 | Execution Time: 0.6014s
+Workers: 2 | Execution Time: 0.5767s
+Workers: 4 | Execution Time: 0.6381s
+
+=== Memory-Bound Suite (DRAM Bandwidth Saturation) ===
+Workers: 1 | Execution Time: 0.3889s
+Workers: 2 | Execution Time: 0.4645s
+Workers: 4 | Execution Time: 0.8446s
+ Workers |  Threading (s) |  Multiprocessing (s)
+--------------------------------------------------
+       1 |         2.0071 |               1.9785
+       2 |         1.9658 |               1.0837
+       4 |         2.0454 |               0.5979
+       8 |         2.0188 |               0.4664
+      16 |         2.0277 |               0.5171
+      32 |         2.0313 |               0.6926
+
+Saved bonus_results.csv - import into Excel/Numbers/Sheets to plot,
+or run plot_bonus.py if you have matplotlib installed.
+Saved bonus_scaling_curve.png
