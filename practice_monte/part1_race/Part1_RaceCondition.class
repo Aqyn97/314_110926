@@ -1,0 +1,63 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Part1_RaceCondition {
+   static long totalHits = 0L;
+   static final long TOTAL_TOSSES = 50000000L;
+   static final int NUM_THREADS = 4;
+
+   public Part1_RaceCondition() {
+   }
+
+   static double runOneTrial() throws InterruptedException {
+      totalHits = 0L;
+      long var0 = 12500000L;
+      Thread[] var2 = new Thread[4];
+
+      for(int var3 = 0; var3 < 4; ++var3) {
+         var2[var3] = new TossWorker(var0);
+      }
+
+      for(Thread var6 : var2) {
+         var6.start();
+      }
+
+      for(Thread var11 : var2) {
+         var11.join();
+      }
+
+      return (double)4.0F * (double)totalHits / (double)5.0E7F;
+   }
+
+   public static void main(String[] var0) throws InterruptedException {
+      System.out.println("Part 1: unsynchronized totalHits++ across 4 threads");
+      System.out.println("Expected pi ~= 3.14159\n");
+
+      for(int var1 = 1; var1 <= 5; ++var1) {
+         double var2 = runOneTrial();
+         System.out.printf("Trial %d: totalHits=%d  pi ~= %.6f%n", var1, totalHits, var2);
+      }
+
+   }
+
+   static class TossWorker extends Thread {
+      final long tossesForThisThread;
+
+      TossWorker(long var1) {
+         this.tossesForThisThread = var1;
+      }
+
+      public void run() {
+         ThreadLocalRandom var1 = ThreadLocalRandom.current();
+
+         for(long var2 = 0L; var2 < this.tossesForThisThread; ++var2) {
+            double var4 = var1.nextDouble();
+            double var6 = var1.nextDouble();
+            if (var4 * var4 + var6 * var6 <= (double)1.0F) {
+               ++Part1_RaceCondition.totalHits;
+            }
+         }
+
+      }
+   }
+}
