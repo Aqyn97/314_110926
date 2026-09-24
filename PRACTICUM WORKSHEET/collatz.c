@@ -1,19 +1,3 @@
-/*
- * collatz.c - Amdahl Reality Gap lab (Collatz stopping time, OpenMP)
- *
- * Build:  gcc -O2 -fopenmp collatz.c -o collatz            (add -DCACHE_LINE=128 if your cache line is 128 B)
- *         (macOS: install gcc via Homebrew and use gcc-14; Apple clang has no OpenMP by default)
- *
- * Usage:  ./collatz header
- *         ./collatz <last4> seq
- *         ./collatz <last4> par <threads> <static|dynamic|guided> <chunk>   (chunk 0 = default)
- *         ./collatz <last4> fs_naive  <threads>     (Experiment A, Variant 1: hit_count[tid]++)
- *         ./collatz <last4> fs_padded <threads>     (Experiment A, Variant 2: 64-byte padded)
- *
- * <last4> = last 4 digits of Student ID; N = 10,000,000 + last4 * 1000
- * Each mode runs 3 times. Run 1 = cold (discard), Avg = (Run2 + Run3) / 2.
- * Output: one CSV line (see "header").
- */
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -24,7 +8,7 @@
 #define MAX_THREADS 256
 #define RUNS 3
 #ifndef CACHE_LINE
-#define CACHE_LINE 64   /* Apple Silicon reports 128: compile with -DCACHE_LINE=128 */
+#define CACHE_LINE 64  
 #endif
 
 static inline uint32_t collatz_steps(uint64_t n) {

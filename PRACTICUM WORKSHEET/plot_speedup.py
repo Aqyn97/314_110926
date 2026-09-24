@@ -1,4 +1,3 @@
-# Usage: python plot_speedup.py   (needs: pip install matplotlib)
 import csv
 import matplotlib
 matplotlib.use("Agg")

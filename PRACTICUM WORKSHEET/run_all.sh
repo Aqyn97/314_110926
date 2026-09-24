@@ -1,7 +1,3 @@
-#!/bin/bash
-# Usage: ./run_all.sh <last4> <physical_cores> <logical_threads>
-# Example: ./run_all.sh 0984 8 16
-# macOS:   CC=gcc-15 CACHE_LINE=128 ./run_all.sh 0984 8 8
 L4=$1; PHYS=$2; LOGI=$3
 [ -z "$LOGI" ] && { echo "usage: $0 <last4> <physical> <logical>"; exit 1; }
 CC="${CC:-gcc}"
