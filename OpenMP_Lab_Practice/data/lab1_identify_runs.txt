@@ -1,0 +1,110 @@
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 14
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 19
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 16
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 21
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 18
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 15
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 20
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 17
+--- Joined thread team. Execution returned to serial master ---
+
